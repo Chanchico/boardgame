@@ -1,4 +1,4 @@
-package chess.pieces;
+package chess;
 
 public enum PieceValue {
     KING(1000),

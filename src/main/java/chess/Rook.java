@@ -1,6 +1,4 @@
-package chess.pieces;
-
-import chess.Color;
+package chess;
 
 public class Rook extends Piece {
 
