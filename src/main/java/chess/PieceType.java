@@ -1,6 +1,6 @@
 package chess;
 
-public enum PieceValue {
+public enum PieceType {
     KING(1000),
     QUEEN(9),
     ROOK(5),
@@ -11,7 +11,7 @@ public enum PieceValue {
 
     private final int value;
 
-    PieceValue(int value){
+    PieceType(int value){
         this.value = value;
     }
 

@@ -20,45 +20,45 @@ public class PieceTest {
     @Test
     public void testShouldReturnCorrectValuePointOfChessPiece(){
         Piece piece = new King(Color.WHITE);
-        assertEquals( PieceValue.PAWN.getValue(), piece.getValue());
+        assertEquals( PieceType.PAWN.getValue(), piece.getValue());
 
         // Black pieces
         King blackKing = new King(Color.BLACK);
-        assertEquals(PieceValue.KING.getValue(), blackKing.getValue());
+        assertEquals(PieceType.KING.getValue(), blackKing.getValue());
 
         Queen blackQueen = new Queen(Color.BLACK);
-        assertEquals(PieceValue.QUEEN.getValue(), blackQueen.getValue());
+        assertEquals(PieceType.QUEEN.getValue(), blackQueen.getValue());
 
         Rook blackRook = new Rook(Color.BLACK);
-        assertEquals(PieceValue.ROOK.getValue(), blackRook.getValue());
+        assertEquals(PieceType.ROOK.getValue(), blackRook.getValue());
 
         Bishop blackBishop = new Bishop(Color.BLACK);
-        assertEquals(PieceValue.BISHOP.getValue(), blackBishop.getValue());
+        assertEquals(PieceType.BISHOP.getValue(), blackBishop.getValue());
 
         Knight knightBlack = new Knight(Color.BLACK);
-        assertEquals(PieceValue.KNIGHT.getValue(), knightBlack.getValue());
+        assertEquals(PieceType.KNIGHT.getValue(), knightBlack.getValue());
 
         Pawn pawnblack = new Pawn(Color.BLACK);
-        assertEquals(PieceValue.PAWN.getValue(), pawnblack.getValue());
+        assertEquals(PieceType.PAWN.getValue(), pawnblack.getValue());
 
         // White pieces
         King whiteKing = new King(Color.WHITE);
-        assertEquals(PieceValue.KING.getValue(), whiteKing.getValue());
+        assertEquals(PieceType.KING.getValue(), whiteKing.getValue());
 
         Queen whiteQueen = new Queen(Color.WHITE);
-        assertEquals(PieceValue.QUEEN.getValue(), whiteQueen.getValue());
+        assertEquals(PieceType.QUEEN.getValue(), whiteQueen.getValue());
 
         Rook whiteRook = new Rook(Color.WHITE);
-        assertEquals(PieceValue.ROOK.getValue(), whiteRook.getValue());
+        assertEquals(PieceType.ROOK.getValue(), whiteRook.getValue());
 
         Bishop whiteBishop = new Bishop(Color.WHITE);
-        assertEquals(PieceValue.BISHOP.getValue(), whiteBishop.getValue());
+        assertEquals(PieceType.BISHOP.getValue(), whiteBishop.getValue());
 
         Knight whiteKnight = new Knight(Color.WHITE);
-        assertEquals(PieceValue.KNIGHT.getValue(), whiteKnight.getValue());
+        assertEquals(PieceType.KNIGHT.getValue(), whiteKnight.getValue());
 
         Pawn whitePawn2 = new Pawn(Color.WHITE);
-        assertEquals(PieceValue.PAWN.getValue(), whitePawn2.getValue());
+        assertEquals(PieceType.PAWN.getValue(), whitePawn2.getValue());
 
     }
 
